@@ -1,0 +1,101 @@
+.title {
+  font-size: 4.2rem;
+
+  background: linear-gradient(
+    90deg,
+    rgba(145, 167, 255, 1),
+    rgba(92, 124, 250, 1)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  margin-bottom: 3rem;
+}
+
+.inputBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  padding: 2rem 0;
+}
+
+.inputBoxRange {
+  width: 15rem;
+}
+
+.inputBoxSpan {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.inputBoxButton {
+  font-size: 1.5rem;
+
+  transition: all 0.3s ease;
+
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  color: #fff;
+  background-color: #748ffc;
+}
+
+.inputBoxButton:hover {
+  background-color: #5c7cfa;
+}
+
+.inputBoxInput {
+  width: 10rem;
+
+  font-size: 1.2rem;
+
+  padding: 0.5rem;
+  border: 1px solid #748ffc;
+  border-radius: 5px;
+}
+
+.inputBoxInput:focus {
+  border: 1px solid #748ffc;
+  outline: none;
+}
+
+.dateContainer {
+  display: flex;
+  align-items: center;
+}
+
+.dateText {
+  font-size: 1.8rem;
+}
+
+.dateValue {
+  font-size: 1.8rem;
+
+  margin-left: 0.5rem;
+}
+
+.resetButton {
+  font-size: 1.2rem;
+
+  transition: all 0.3s ease;
+
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  color: white;
+  background-color: #748ffc;
+}
+
+.resetButton:hover {
+  background-color: #748ffc;
+}
